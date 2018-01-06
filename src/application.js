@@ -5,5 +5,5 @@ import Theme from './theme'
 
 const Component = new renderHot(<Theme />)
 console.log('type theme', typeof Theme)
-console.log('type hot', typeof Component) // Why am I type object?
+console.log('type hot', typeof Component) // Why am I type object when a function should be returned?
 ReactDOM.render(<Component />, document.getElementById('root'))
